@@ -80,7 +80,7 @@ Your journey will take you through the wildness of the American Midwest and acro
 2. At the bottom of the main module, you will see the following code - `for (const drover of drovers)`. Explain what the values of both the `drover` and the `drovers` variables are.
    > This line of code specifies the code contained in its curly braces be performed for each object in the `drovers` array (as defined in #1 above).   the code instantiates a variable `drover` to be used as a placeholder to reference the current `drovers` object.
 3. In the **journey** module, there is a `journeyMaker()` function. In that function, there is a variable named `areas` which will have the value of an object. Use your debugger to show what the value of each key is on that object. Use [Loom](https://www.loom.com) to record your session.
-   > Your public Loom URL here
+   >[ Your public Loom URL here](https://www.loom.com/share/cb892bba4d5143fea555b144254f370f?sid=5cdcca9a-3ae9-4d4c-9788-17a29a9b782e)
 4. Also in the **journey** module, there is the following code:
    ```js
    for (let forestNumber = 0; forestNumber < areas.forests; forestNumber++) {
