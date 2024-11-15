@@ -76,9 +76,9 @@ Your journey will take you through the wildness of the American Midwest and acro
 ```
 
 1. In the **main** module, one of the first lines of code is `const drovers = hireDrovers(cattleToDrive)`. Explain what the value of the `drovers` variable is when that line of code runs.
-   > Your answer here
+   > The `drovers` array will contain a number of randomly selected objects from the `database.drovers` array (defined in the `database` module) equal to the herd size divided by 10.  The current logic allows for duplicates.
 2. At the bottom of the main module, you will see the following code - `for (const drover of drovers)`. Explain what the values of both the `drover` and the `drovers` variables are.
-   > Your answer here
+   > This line of code specifies the code contained in its curly braces be performed for each object in the `drovers` array (as defined in #1 above).   the code instantiates a variable `drover` to be used as a placeholder to reference the current `drovers` object.
 3. In the **journey** module, there is a `journeyMaker()` function. In that function, there is a variable named `areas` which will have the value of an object. Use your debugger to show what the value of each key is on that object. Use [Loom](https://www.loom.com) to record your session.
    > Your public Loom URL here
 4. Also in the **journey** module, there is the following code:
@@ -88,11 +88,11 @@ Your journey will take you through the wildness of the American Midwest and acro
    }
    ```
    Explain this code with your best vocabulary.
-   > Your answer here
+   > this `for` loop will add the string "forest" to the `journey` array a number of times equal to the `forests` property of the `areas` array.
 5. Explain the value of the `database` variable in the **database** module. Be as comprehensive as possible.
-   > Your answer here
+   > the `database` variable contains all of the data necessary to calculate and print the report.  It has two properties, `cattleTypes` and `drovers`, both of which are arrays of objects representing distinct types of cattle and individual drovers respectively.  It is a single place to find all of the data.
 6. In the **drovers** module, there is a `hireDrovers()` function. You will notice the following code on that line - `(herdSize)`. What is that defining, and where does it get its value?
-   > Your answer here
+   > `(herdSize)` defines a variable `herdSize` as the only required argument needed by the function `hireDrovers()` when it is called from elsewhere in code.
 
 ## When You Are Done
 
